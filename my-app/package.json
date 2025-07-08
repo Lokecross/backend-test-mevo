@@ -9,11 +9,16 @@
   "dependencies": {
     "@hono/node-server": "^1.15.0",
     "csvtojson": "^2.0.10",
-    "hono": "^4.8.4"
+    "dotenv": "^17.1.0",
+    "drizzle-orm": "^0.44.2",
+    "hono": "^4.8.4",
+    "pg": "^8.16.3"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
-    "tsx": "^4.7.1",
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
